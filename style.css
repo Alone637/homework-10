@@ -1,0 +1,52 @@
+body{
+    color: black;
+    font-family: 'TT Hoves';
+    margin: 0;
+    padding-bottom: 1000px;
+}
+
+section{
+    padding: 0 calc(10vw - 13px);
+    margin-top: 37px;
+}
+
+.nachalo{
+    color: var(--typo-black, #222);
+    font-family: TT Hoves;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.58px;
+    text-transform: uppercase;
+    width: 1022px;
+}
+h3{
+    color: var(--typo-black, #222);
+    font-family: TT Hoves;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: uppercase;
+}
+.punkt2{
+    width: 428px;
+}
+span{
+    color: var(--typo-black, #222);
+    font-family: TT Hoves;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    width: 400px;
+    margin-top: 20px;
+}
+.punkti{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+    gap: 90px 120px;
+    margin-top: 90px;
+}
